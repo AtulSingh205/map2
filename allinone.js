@@ -20,14 +20,14 @@
 // ];
 // Output: ["Atul Singh", "Karan Sharma"]
 // -------------solve------------
-let people = [ 
-    {fname:"Atul",lname:"Singh"},
-    {fname:"Karan",lname:"Yadav"}
-]
-let  divnamecast=people.map((item,value)=>{
-    return people.join("")
-})
-console.log(divnamecast)
+// let people = [ 
+//     {fname:"Atul",lname:"Singh"},
+//     {fname:"Karan",lname:"Yadav"}
+// ]
+// let  divnamecast=people.map((item,value)=>{
+//     return item.join("")
+// })
+// console.log(divnamecast)
 
 // ---------------------q3-----------
 // let scores = [85, 42, 77];
@@ -51,13 +51,24 @@ console.log(divnamecast)
 // Output: ["Yes", "No", "Yes"]
 
 // --------------solve------------
-let value = [true,false,true]
-let yn=value.map((item,value)=>{
-    if(item===true){
-         return "Yes"
-    }
-    else{
-         return "No"
-    }
+// let value = [true,false,true]
+// let yn=value.map((item,value)=>{
+//     if(item===true){
+//          return "Yes"
+//     }
+//     else{
+//          return "No"
+//     }
+// })
+// console.log(yn)
+
+// --------------------q5---------------
+// arr=[1,2,3]=[1,4,9]
+
+// -------------------solve--------------
+
+let arr=[1,2,3]
+let mul=arr.map((item,value)=>{
+    return item*item
 })
-console.log(yn)
+console.log(mul)
